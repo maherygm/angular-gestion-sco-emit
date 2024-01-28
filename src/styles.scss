@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@import url("./assets/styles/__mixStyle.scss");
+
+* {
+  font-family: var(--DefaultFont);
+}
+h1,
+h2,
+h3 {
+  font-family: var(--TitleFont);
+}
+body {
+  transition: background-color 200ms ease;
+  background-color: var(--backgroundColor);
+}

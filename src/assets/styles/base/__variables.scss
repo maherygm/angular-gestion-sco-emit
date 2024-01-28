@@ -1,0 +1,127 @@
+@font-face {
+  font-family: "KronaOne";
+  src: url("../../fonts/KronaOne.ttf");
+}
+@font-face {
+  font-family: "Nunito";
+  src: url("../../fonts/Nunito.ttf");
+}
+/* @import url("../../fonts/KronaOne.ttf");
+@import url("../../fonts/Nunito.ttf"); */
+
+:root {
+  /* principal color */
+  --primaryColor: #843730;
+  --secondaryColor: #63617b;
+  --thirdColor: #3f7b43;
+
+  --disabledColor: #7f7f7f;
+  --whiteColor: #ffffff;
+  --fillInput: #ffffff;
+  --greyColor: #e9ecf4;
+  --hoverColor: #f8f9fb;
+
+  --hoverBtnColor: #00000031;
+
+  /* background */
+  --backgroundColor: #cdcdcd;
+  --backgroundColorNav: #121321;
+
+  --backgroundColorTransparent: rgba(255, 255, 255, 0.247);
+  --backgroundColorTransparentDark: rgb(1, 1, 1);
+
+  /* background cards */
+  --backgroundColorCards: #fff;
+
+  /* Transparent Color */
+  --whiteColorTransparent: rgba(255, 255, 255, 0.7);
+  --darkColorTransparent: rgba(0, 0, 0, 0.06);
+
+  /* Font color */
+  --darkFontColor: #030239;
+  --lightFontColor: #222e43;
+
+  /* Success color */
+  --succesColor: #1b9a22;
+  --darksuccesColor: #26822b;
+
+  /* Warning color */
+  --warningColor: #fea23c;
+  --darkwarningColor: rgb(196, 111, 0);
+
+  /* Danger color */
+  --dangerColor: #df0b0b;
+  --darkdangerColor: #ff2600;
+
+  /* linear color */
+  --linearColor1: linear-gradient(to right, #00aeef 0%, #9e61c1 100%);
+  --linearColor2: linear-gradient(to right, #1a90e8 10%, #f7b50e 100%);
+
+  --blurcolor1: #bf65f7;
+  --blurcolor2: #26b2ed;
+  --blurcolor3: #99e29a;
+
+  /* Supplement color */
+  --color1: #ffb000;
+  --color2: #d30074;
+  --color3: #e96e16;
+  --color4: #06b91e;
+
+  /* Font family */
+  --DefaultFont: "Nunito", Arial;
+  --TitleFont: "KronaOne", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.darkTheme {
+  /* principal color */
+  --primaryColor: #843730;
+  --secondaryColor: #63617b;
+  --thirdColor: #3f7b43;
+
+  --disabledColor: #7f7f7f;
+  --whiteColor: #253a6c;
+  --fillInput: #1c2c4a;
+  --greyColor: #1c2638;
+  --hoverColor: #f8f9fb;
+
+  --hoverBtnColor: #00000031;
+
+  /* background */
+  --backgroundColor: #121321;
+  --backgroundColorNav: #cdcdcd;
+
+  --backgroundColorTransparent: rgba(0, 0, 0, 0.247);
+  --backgroundColorTransparentDark: rgb(214, 214, 214);
+
+  /* Transparent Color */
+  --whiteColorTransparent: rgba(63, 63, 63, 0.5);
+  --darkColorTransparent: rgba(68, 91, 132, 0.4);
+
+  /* background cards */
+  --backgroundColorCards: #0b111d46;
+
+  /* Font color */
+  --darkFontColor: #dcdcdc;
+  --lightFontColor: #6c6d6e;
+
+  /* Success color */
+  --succesColor: #1b9a22;
+  --darksuccesColor: #26822b;
+
+  /* Warning color */
+  --warningColor: #fea23c;
+  --darkwarningColor: rgb(196, 111, 0);
+
+  /* Danger color */
+  --dangerColor: #df0b0b;
+  --darkdangerColor: #ff2600;
+
+  /* linear color */
+  --linearColor1: linear-gradient(to right, #360093 0%, #360093 100%);
+  --linearColor2: linear-gradient(to right, #1a90e8 10%, #f7b50e 100%);
+
+  /* For blur background */
+  --blurcolor1: #ca81f7;
+  --blurcolor2: #7eccee;
+  --blurcolor3: #99e29a;
+}
