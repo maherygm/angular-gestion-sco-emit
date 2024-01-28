@@ -19,3 +19,6 @@ body {
   transition: background-color 200ms ease;
   background-color: var(--backgroundColor);
 }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

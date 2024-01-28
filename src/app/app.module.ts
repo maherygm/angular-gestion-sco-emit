@@ -17,6 +17,7 @@ import { NavigationDashboardComponent } from './main/pages/dashboard/layout/navi
 import { ChartPageComponent } from './main/pages/dashboard/content/chart-page/chart-page.component';
 import { ManagementPagesComponent } from './main/pages/dashboard/content/management-pages/management-pages.component';
 import { SettingsPagesComponent } from './main/pages/dashboard/content/settings-pages/settings-pages.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -45,6 +46,7 @@ import { SettingsPagesComponent } from './main/pages/dashboard/content/settings-
       { path: 'signin', component: SigninComponent },
       { path: '**', redirectTo: 'home', pathMatch: 'full' },
     ]),
+    BrowserAnimationsModule,
   ],
   providers: [provideClientHydration()],
   bootstrap: [AppComponent],
