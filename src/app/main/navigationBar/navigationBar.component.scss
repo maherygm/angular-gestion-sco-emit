@@ -1,12 +1,19 @@
 .navigationBar-main-container {
   display: flex;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  width: 100vw;
+  top: 0px;
   align-items: center;
   justify-content: space-around;
   padding: 20px 0px;
   color: var(--darkFontColor);
   transition: position 200ms ease;
-
+  transition: transform 200ms ease;
+  z-index: 100;
   .nav-content {
+    z-index: 102;
     ul {
       display: flex;
       flex-direction: row;
@@ -33,6 +40,7 @@
   .action-container {
     display: flex;
     gap: 20px;
+    z-index: 101;
 
     .connection {
       outline: none;
@@ -51,7 +59,6 @@
     }
     .dark-mode {
       outline: none;
-
       padding: 14px 22px;
       border-radius: 20px;
       border: inherit;
@@ -65,13 +72,13 @@
 }
 
 .navigationBar-main-container.active {
-  transition: background-color 200ms ease;
+  transition: transform 200ms ease;
   position: fixed;
-  top: 20px;
+  top: 0px;
   background-color: rgba(0, 0, 0, 0.197);
   backdrop-filter: blur(30px);
   width: 80vw;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, 20px);
   border-radius: 100px;
 }

@@ -9,7 +9,7 @@ export class MainComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {
-    AOS.init({ disable: 'mobile' }); //AOS - 2
+    AOS.init({ disable: 'mobile' });
     AOS.refresh();
   }
 }

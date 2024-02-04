@@ -18,7 +18,13 @@ h3 {
 body {
   transition: background-color 200ms ease;
   background-color: var(--backgroundColor);
+  cursor: var(--cursorIcon), auto;
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}

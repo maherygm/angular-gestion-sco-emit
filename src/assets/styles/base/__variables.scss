@@ -15,8 +15,8 @@
   --secondaryColor: #63617b;
   --thirdColor: #3f7b43;
 
-  --disabledColor: #7f7f7f;
-  --whiteColor: #ffffff;
+  --disabledColor: #8b8b8b;
+  --whiteColor: #515151;
   --fillInput: #ffffff;
   --greyColor: #e9ecf4;
   --hoverColor: #f8f9fb;
@@ -27,6 +27,10 @@
   --backgroundColor: #cdcdcd;
   --backgroundColorNav: #121321;
 
+  // background transparent reverse
+  --backgroundColorTrasparentReverse: #00000015;
+  --backgroundColorTrasparentReverse2: #0a090932;
+
   --backgroundColorTransparent: rgba(255, 255, 255, 0.247);
   --backgroundColorTransparentDark: rgb(1, 1, 1);
 
@@ -36,6 +40,9 @@
   /* Transparent Color */
   --whiteColorTransparent: rgba(255, 255, 255, 0.7);
   --darkColorTransparent: rgba(0, 0, 0, 0.06);
+
+  /* Cursor Image*/
+  --cursorIcon: url("../../image/cursor/Cursor_Dark_Line.png");
 
   /* Font color */
   --darkFontColor: #030239;
@@ -78,7 +85,7 @@
   --secondaryColor: #63617b;
   --thirdColor: #3f7b43;
 
-  --disabledColor: #7f7f7f;
+  --disabledColor: #c0c0c0;
   --whiteColor: #253a6c;
   --fillInput: #1c2c4a;
   --greyColor: #1c2638;
@@ -90,6 +97,12 @@
   --backgroundColor: #121321;
   --backgroundColorNav: #cdcdcd;
 
+  // background transparent reverse
+
+  --backgroundColorTrasparentReverse: #cdcdcd22;
+
+  --backgroundColorTrasparentReverse2: #cdcdcd19;
+
   --backgroundColorTransparent: rgba(0, 0, 0, 0.247);
   --backgroundColorTransparentDark: rgb(214, 214, 214);
 
@@ -98,7 +111,7 @@
   --darkColorTransparent: rgba(68, 91, 132, 0.4);
 
   /* background cards */
-  --backgroundColorCards: #0b111d46;
+  --backgroundColorCards: #23325246;
 
   /* Font color */
   --darkFontColor: #dcdcdc;
@@ -117,7 +130,7 @@
   --darkdangerColor: #ff2600;
 
   /* linear color */
-  --linearColor1: linear-gradient(to right, #360093 0%, #360093 100%);
+  --linearColor1: linear-gradient(to right, #360093 0%, #003893 100%);
   --linearColor2: linear-gradient(to right, #1a90e8 10%, #f7b50e 100%);
 
   /* For blur background */

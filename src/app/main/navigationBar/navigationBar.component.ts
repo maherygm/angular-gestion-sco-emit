@@ -31,8 +31,7 @@ export class NavigationBarComponent implements OnInit {
 
   mode: string = 'sombre';
   handleClick() {
-    const body = document.querySelector('body');
-    body?.classList.toggle('darkTheme');
+    document.body?.classList.toggle('darkTheme');
     if (this.mode === 'sombre') {
       this.mode = 'ligth';
     } else {

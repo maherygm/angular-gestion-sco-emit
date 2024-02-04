@@ -18,6 +18,10 @@ import { ChartPageComponent } from './main/pages/dashboard/content/chart-page/ch
 import { ManagementPagesComponent } from './main/pages/dashboard/content/management-pages/management-pages.component';
 import { SettingsPagesComponent } from './main/pages/dashboard/content/settings-pages/settings-pages.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BannerComponent } from './main/pages/home/content/banner/banner.component';
+import { FooterComponent } from './main/footer/footer.component';
+import { AProposComponent } from './main/pages/home/content/a-propos/a-propos.component';
+import { NgApexchartsModule } from 'ng-apexcharts';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,17 +35,30 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ChartPageComponent,
     ManagementPagesComponent,
     SettingsPagesComponent,
+    BannerComponent,
+    FooterComponent,
+    AProposComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
-      { path: 'dashboard', component: ChartPageComponent },
-      { path: 'dashboard/chart', component: ChartPageComponent },
-      { path: 'dashboard/management', component: ManagementPagesComponent },
-      { path: 'dashboard/settings', component: SettingsPagesComponent },
+      {
+        path: 'dashboard',
+        component: DashboardComponent,
+        children: [
+          {
+            path: '',
+            component: ChartPageComponent,
+          },
+          { path: 'chart', component: ChartPageComponent },
+          { path: 'management', component: ManagementPagesComponent },
+          { path: 'settings', component: SettingsPagesComponent },
+        ],
+      },
       { path: 'login', component: LoginComponent },
       { path: 'signin', component: SigninComponent },
       { path: '**', redirectTo: 'home', pathMatch: 'full' },
