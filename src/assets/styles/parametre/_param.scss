@@ -98,3 +98,16 @@ html.has-scroll-dragging {
   background: var(--fillInput);
   background: var(--fillInput);
 }
+
+.input-perso {
+  outline: none;
+  border: 2px solid transparent;
+  background-color: var(--inputBackgroundColor);
+  color: var(--inputTexteColor);
+  border-radius: 10px;
+}
+.btn-perso {
+  outline: none;
+  border: inherit;
+  border-radius: 20px;
+}

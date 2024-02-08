@@ -1,4 +1,6 @@
 .dashboard-nav-container {
+  position: fixed;
+  top: 0;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -6,6 +8,7 @@
   padding: 15px 0px;
   background-color: var(--backgroundColorNav);
   color: var(--backgroundColor);
+  z-index: 9999;
   .list-nav {
     ul {
       display: flex;
@@ -19,6 +22,10 @@
         transition: background-color 200ms ease-in;
       }
       li:hover {
+        color: white;
+        background-color: var(--primaryColor);
+      }
+      li:active {
         color: white;
         background-color: var(--primaryColor);
       }

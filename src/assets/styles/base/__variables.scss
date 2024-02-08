@@ -21,6 +21,9 @@
   --greyColor: #e9ecf4;
   --hoverColor: #f8f9fb;
 
+  //input background-color;
+  --inputBackgroundColor: #efefef;
+
   --hoverBtnColor: #00000031;
 
   /* background */
@@ -29,7 +32,10 @@
 
   // background transparent reverse
   --backgroundColorTrasparentReverse: #00000015;
+
   --backgroundColorTrasparentReverse2: #0a090932;
+
+  --backgroundColorTrasparentReverse3: #ffffff25;
 
   --backgroundColorTransparent: rgba(255, 255, 255, 0.247);
   --backgroundColorTransparentDark: rgb(1, 1, 1);
@@ -93,6 +99,10 @@
 
   --hoverBtnColor: #00000031;
 
+  //input background-color;
+  --inputBackgroundColor: #e0e0e00f;
+  --inputTexteColor: #c5c5c5;
+
   /* background */
   --backgroundColor: #121321;
   --backgroundColorNav: #cdcdcd;
@@ -102,6 +112,8 @@
   --backgroundColorTrasparentReverse: #cdcdcd22;
 
   --backgroundColorTrasparentReverse2: #cdcdcd19;
+
+  --backgroundColorTrasparentReverse3: #cdcdcd19;
 
   --backgroundColorTransparent: rgba(0, 0, 0, 0.247);
   --backgroundColorTransparentDark: rgb(214, 214, 214);
@@ -137,4 +149,10 @@
   --blurcolor1: #ca81f7;
   --blurcolor2: #7eccee;
   --blurcolor3: #99e29a;
+
+  /* Supplement color */
+  --color1: #ffb000;
+  --color2: #d30074;
+  --color3: #e96e16;
+  --color4: #06b91e;
 }

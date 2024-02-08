@@ -1,3 +1,5 @@
+import { NgApexchartsModule } from 'ng-apexcharts';
+import { FormsModule } from '@angular/forms';
 import { Component, NgModule } from '@angular/core';
 import {
   BrowserModule,
@@ -21,7 +23,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BannerComponent } from './main/pages/home/content/banner/banner.component';
 import { FooterComponent } from './main/footer/footer.component';
 import { AProposComponent } from './main/pages/home/content/a-propos/a-propos.component';
-import { NgApexchartsModule } from 'ng-apexcharts';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -42,7 +44,7 @@ import { NgApexchartsModule } from 'ng-apexcharts';
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    FormsModule,
     RouterModule.forRoot([
       { path: 'home', component: HomeComponent },
       { path: '', redirectTo: 'home', pathMatch: 'full' },
